@@ -8,6 +8,7 @@
   - [pop_res_prov107.vrt](#popresprov107vrt)
   - [totale_casi_prov_pivot_dw.csv](#totalecasiprovpivotdwcsv)
   - [incidenza1k_totale_casi_prov_pivot_dw.csv](#incidenza1ktotalecasiprovpivotdwcsv)
+  - [`atlas_pagename.csv`](#atlaspagenamecsv)
 
 <!-- /TOC -->
 
@@ -131,7 +132,11 @@ FROM dpc_covid19_ita_province a, pop_res_prov107_NUTS3_ISTAT20190101_cod_reg b
 WHERE a.sigla_provincia = b.sigla;
 ```
 
-dove: dove `dpc_covid19_ita_province` è il file CSV prodotto da [PCM-DPC](https://github.com/pcm-dpc/COVID-19) e `pop_res_prov107_NUTS3_ISTAT20190101_cod_reg` è la tabella che contiene la popolazione residente.
+dove: `dpc_covid19_ita_province` è il file CSV prodotto da [PCM-DPC](https://github.com/pcm-dpc/COVID-19) e `pop_res_prov107_NUTS3_ISTAT20190101_cod_reg` è la tabella che contiene la popolazione residente.
+
+## `atlas_pagename.csv`
+
+È un file CSV da generare utilizzando le intestazioni dei campi della tabella PIVOT:
 
 
 
