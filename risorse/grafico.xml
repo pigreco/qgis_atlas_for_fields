@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dataplotly>
 <Option type="Map">
- <Option name="dynamic_properties" type="Map">
-  <Option name="name" type="QString" value=""/>
-  <Option name="properties" type="Map">
-   <Option name="filter" type="Map">
-    <Option name="active" type="bool" value="true"/>
-    <Option name="expression" type="QString" value="$id &lt;  @atlas_featureid"/>
-    <Option name="type" type="int" value="3"/>
+ <Option type="Map" name="dynamic_properties">
+  <Option type="QString" name="name" value=""/>
+  <Option type="Map" name="properties">
+   <Option type="Map" name="filter">
+    <Option type="bool" name="active" value="true"/>
+    <Option type="QString" name="expression" value="$id &lt;  @atlas_featureid"/>
+    <Option type="int" name="type" value="3"/>
    </Option>
   </Option>
-  <Option name="type" type="QString" value="collection"/>
+  <Option type="QString" name="type" value="collection"/>
  </Option>
- <Option name="plot_layout" type="Map">
-  <Option name="additional_info_expression" type="QString" value=""/>
-  <Option name="bar_mode" type="QString" value="group"/>
-  <Option name="bargaps" type="double" value="0"/>
-  <Option name="bins_check" type="bool" value="false"/>
-  <Option name="legend" type="bool" value="false"/>
-  <Option name="legend_orientation" type="QString" value="v"/>
-  <Option name="legend_title" type="invalid"/>
-  <Option name="polar" type="Map">
-   <Option name="angularaxis" type="Map">
-    <Option name="direction" type="QString" value="clockwise"/>
+ <Option type="Map" name="plot_layout">
+  <Option type="QString" name="additional_info_expression" value=""/>
+  <Option type="QString" name="bar_mode" value="group"/>
+  <Option type="double" name="bargaps" value="0"/>
+  <Option type="bool" name="bins_check" value="false"/>
+  <Option type="bool" name="legend" value="false"/>
+  <Option type="QString" name="legend_orientation" value="v"/>
+  <Option type="invalid" name="legend_title"/>
+  <Option type="Map" name="polar">
+   <Option type="Map" name="angularaxis">
+    <Option type="QString" name="direction" value="clockwise"/>
    </Option>
   </Option>
-  <Option name="range_slider" type="Map">
-   <Option name="borderwidth" type="int" value="1"/>
-   <Option name="visible" type="bool" value="false"/>
+  <Option type="Map" name="range_slider">
+   <Option type="int" name="borderwidth" value="1"/>
+   <Option type="bool" name="visible" value="false"/>
   </Option>
-  <Option name="title" type="QString" value=""/>
-  <Option name="x_inv" type="invalid"/>
-  <Option name="x_max" type="invalid"/>
-  <Option name="x_min" type="invalid"/>
-  <Option name="x_title" type="QString" value=""/>
-  <Option name="x_type" type="QString" value="linear"/>
-  <Option name="xaxis" type="invalid"/>
-  <Option name="y_inv" type="invalid"/>
-  <Option name="y_max" type="invalid"/>
-  <Option name="y_min" type="invalid"/>
-  <Option name="y_title" type="QString" value=""/>
-  <Option name="y_type" type="QString" value="linear"/>
-  <Option name="z_title" type="QString" value=""/>
+  <Option type="QString" name="title" value=""/>
+  <Option type="invalid" name="x_inv"/>
+  <Option type="invalid" name="x_max"/>
+  <Option type="invalid" name="x_min"/>
+  <Option type="QString" name="x_title" value=""/>
+  <Option type="QString" name="x_type" value="linear"/>
+  <Option type="invalid" name="xaxis"/>
+  <Option type="invalid" name="y_inv"/>
+  <Option type="invalid" name="y_max"/>
+  <Option type="invalid" name="y_min"/>
+  <Option type="QString" name="y_title" value=""/>
+  <Option type="QString" name="y_type" value="linear"/>
+  <Option type="QString" name="z_title" value=""/>
  </Option>
- <Option name="plot_properties" type="Map">
-  <Option name="additional_hover_text" type="invalid"/>
-  <Option name="bins" type="int" value="0"/>
-  <Option name="box_orientation" type="QString" value="v"/>
-  <Option name="box_outliers" type="bool" value="false"/>
-  <Option name="box_stat" type="bool" value="false"/>
-  <Option name="color_scale" type="QString" value="Greys"/>
-  <Option name="color_scale_data_defined_in_check" type="bool" value="false"/>
-  <Option name="color_scale_data_defined_in_invert_check" type="bool" value="false"/>
-  <Option name="cont_type" type="QString" value="fill"/>
-  <Option name="contour_type_combo" type="QString" value="Riempimento"/>
-  <Option name="cumulative" type="bool" value="false"/>
-  <Option name="custom" type="List">
-   <Option type="QString" value="id"/>
+ <Option type="Map" name="plot_properties">
+  <Option type="invalid" name="additional_hover_text"/>
+  <Option type="int" name="bins" value="0"/>
+  <Option type="QString" name="box_orientation" value="v"/>
+  <Option type="bool" name="box_outliers" value="false"/>
+  <Option type="bool" name="box_stat" value="false"/>
+  <Option type="QString" name="color_scale" value="Greys"/>
+  <Option type="bool" name="color_scale_data_defined_in_check" value="false"/>
+  <Option type="bool" name="color_scale_data_defined_in_invert_check" value="false"/>
+  <Option type="QString" name="cont_type" value="fill"/>
+  <Option type="QString" name="contour_type_combo" value="Riempimento"/>
+  <Option type="bool" name="cumulative" value="false"/>
+  <Option type="List" name="custom">
+   <Option type="QString" value="data"/>
   </Option>
-  <Option name="hover_label_position" type="QString" value="auto"/>
-  <Option name="hover_label_text" type="invalid"/>
-  <Option name="hover_text" type="QString" value="all"/>
-  <Option name="in_color" type="QString" value="#000000"/>
-  <Option name="invert_color_scale" type="bool" value="false"/>
-  <Option name="invert_hist" type="QString" value="increasing"/>
-  <Option name="line_combo" type="QString" value="Linea continua"/>
-  <Option name="line_dash" type="QString" value="solid"/>
-  <Option name="marker" type="QString" value="markers"/>
-  <Option name="marker_size" type="double" value="10"/>
-  <Option name="marker_symbol" type="int" value="0"/>
-  <Option name="marker_type_combo" type="QString" value="Punti"/>
-  <Option name="marker_width" type="double" value="3"/>
-  <Option name="name" type="QString" value="id - variazione_totale_positivi"/>
-  <Option name="normalization" type="QString" value=""/>
-  <Option name="opacity" type="double" value="1"/>
-  <Option name="out_color" type="QString" value="#000000"/>
-  <Option name="point_combo" type="QString" value=""/>
-  <Option name="selected_features_only" type="bool" value="false"/>
-  <Option name="show_colorscale_legend" type="bool" value="false"/>
-  <Option name="show_lines" type="bool" value="false"/>
-  <Option name="show_lines_check" type="bool" value="false"/>
-  <Option name="show_mean_line" type="bool" value="false"/>
-  <Option name="violin_box" type="bool" value="false"/>
-  <Option name="violin_side" type="QString" value="both"/>
-  <Option name="visible_features_only" type="bool" value="false"/>
-  <Option name="x_name" type="QString" value="id"/>
-  <Option name="y_name" type="QString" value="variazione_totale_positivi"/>
-  <Option name="z_name" type="QString" value=""/>
+  <Option type="QString" name="hover_label_position" value="auto"/>
+  <Option type="invalid" name="hover_label_text"/>
+  <Option type="QString" name="hover_text" value="all"/>
+  <Option type="QString" name="in_color" value="#000000"/>
+  <Option type="bool" name="invert_color_scale" value="false"/>
+  <Option type="QString" name="invert_hist" value="increasing"/>
+  <Option type="QString" name="line_combo" value="Linea continua"/>
+  <Option type="QString" name="line_dash" value="solid"/>
+  <Option type="QString" name="marker" value="markers"/>
+  <Option type="double" name="marker_size" value="10"/>
+  <Option type="int" name="marker_symbol" value="0"/>
+  <Option type="QString" name="marker_type_combo" value="Punti"/>
+  <Option type="double" name="marker_width" value="3"/>
+  <Option type="QString" name="name" value=""/>
+  <Option type="QString" name="normalization" value=""/>
+  <Option type="double" name="opacity" value="1"/>
+  <Option type="QString" name="out_color" value="#000000"/>
+  <Option type="QString" name="point_combo" value=""/>
+  <Option type="bool" name="selected_features_only" value="false"/>
+  <Option type="bool" name="show_colorscale_legend" value="false"/>
+  <Option type="bool" name="show_lines" value="false"/>
+  <Option type="bool" name="show_lines_check" value="false"/>
+  <Option type="bool" name="show_mean_line" value="false"/>
+  <Option type="bool" name="violin_box" value="false"/>
+  <Option type="QString" name="violin_side" value="both"/>
+  <Option type="bool" name="visible_features_only" value="false"/>
+  <Option type="QString" name="x_name" value="data"/>
+  <Option type="QString" name="y_name" value="variazione_totale_positivi"/>
+  <Option type="QString" name="z_name" value=""/>
  </Option>
- <Option name="plot_type" type="QString" value="scatter"/>
- <Option name="source_layer_id" type="QString" value="dpc_covid19_ita_andamento_nazionale_a5fc2796_17c4_4161_a85a_fb4d87bf2e62"/>
+ <Option type="QString" name="plot_type" value="scatter"/>
+ <Option type="QString" name="source_layer_id" value="covid19_andamento_nazione_dpc_covid19_ita_andamento_nazionale_114795f9_09e5_45c2_aed5_00d8fd769cd4"/>
 </Option>

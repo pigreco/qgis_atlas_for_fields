@@ -8,7 +8,8 @@
   - [pop_res_prov107.vrt](#popresprov107vrt)
   - [totale_casi_prov_pivot_dw.csv](#totalecasiprovpivotdwcsv)
   - [incidenza1k_totale_casi_prov_pivot_dw.csv](#incidenza1ktotalecasiprovpivotdwcsv)
-  - [`atlas_pagename.csv`](#atlaspagenamecsv)
+  - [atlas_pagename.csv](#atlaspagenamecsv)
+  - [altri file](#altri-file)
 
 <!-- /TOC -->
 
@@ -134,9 +135,12 @@ WHERE a.sigla_provincia = b.sigla;
 
 dove: `dpc_covid19_ita_province` è il file CSV prodotto da [PCM-DPC](https://github.com/pcm-dpc/COVID-19) e `pop_res_prov107_NUTS3_ISTAT20190101_cod_reg` è la tabella che contiene la popolazione residente.
 
-## `atlas_pagename.csv`
+## atlas_pagename.csv
 
-È un file CSV da generare utilizzando le intestazioni dei campi della tabella PIVOT:
+È un file CSV da generare utilizzando le intestazioni dei campi della tabella PIVOT, 
 
+![](../imgs/atlas_pagename.png)
+## altri file
 
-
+- `grafico.xml` file configurazione grafico;
+- `atlas.qpt` template layout di stampa;

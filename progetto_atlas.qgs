@@ -4036,6 +4036,9 @@ QGIS - [%@qgis_version%]
       <Placement type="int">0</Placement>
       <Size type="double">25</Size>
     </Image>
+    <Layouts>
+      <lastLayoutExportDir type="QString">D:/GitHub/qgis_atlas_for_fields/stampe</lastLayoutExportDir>
+    </Layouts>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
@@ -4637,7 +4640,7 @@ QGIS - [%@qgis_version%]
         <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem id="" zValue="15" type="65643" excludeFromExports="0" outlineWidthM="0.3,mm" positionLock="false" positionOnPage="65.0654,276.314,mm" frameJoinStyle="miter" position="65.0654,276.314,mm" visibility="1" itemRotation="0" blendMode="0" shapeType="1" templateUuid="{8def3889-b239-4594-a424-b7567955f586}" size="-9.47847,4.804,mm" uuid="{8def3889-b239-4594-a424-b7567955f586}" referencePoint="3" opacity="1" background="false" groupUuid="" cornerRadiusMeasure="0,mm" frame="false">
+      <LayoutItem id="" zValue="15" type="65643" excludeFromExports="0" outlineWidthM="0.3,mm" positionLock="false" positionOnPage="65.0654,276.314,mm" frameJoinStyle="miter" position="65.0654,276.314,mm" visibility="1" itemRotation="0" blendMode="0" shapeType="1" templateUuid="{8def3889-b239-4594-a424-b7567955f586}" size="132.699,4.804,mm" uuid="{8def3889-b239-4594-a424-b7567955f586}" referencePoint="3" opacity="1" background="false" groupUuid="" cornerRadiusMeasure="0,mm" frame="false">
         <FrameColor red="0" alpha="255" blue="0" green="0"/>
         <BackgroundColor red="255" alpha="255" blue="255" green="255"/>
         <LayoutObject>
@@ -4877,7 +4880,7 @@ QGIS - [%@qgis_version%]
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem id="scorre" zValue="7" type="65643" excludeFromExports="0" outlineWidthM="0.3,mm" positionLock="false" positionOnPage="197.662,274.314,mm" frameJoinStyle="miter" position="197.662,274.314,mm" visibility="1" itemRotation="0" blendMode="0" shapeType="1" templateUuid="{62c8deea-48eb-4635-ab6b-826d0b4e2686}" size="142.177,4,mm" uuid="{62c8deea-48eb-4635-ab6b-826d0b4e2686}" referencePoint="2" opacity="1" background="false" groupUuid="" cornerRadiusMeasure="0,mm" frame="false">
+      <LayoutItem id="scorre" zValue="7" type="65643" excludeFromExports="0" outlineWidthM="0.3,mm" positionLock="false" positionOnPage="197.662,274.314,mm" frameJoinStyle="miter" position="197.662,274.314,mm" visibility="1" itemRotation="0" blendMode="0" shapeType="1" templateUuid="{62c8deea-48eb-4635-ab6b-826d0b4e2686}" size="0,4,mm" uuid="{62c8deea-48eb-4635-ab6b-826d0b4e2686}" referencePoint="2" opacity="1" background="false" groupUuid="" cornerRadiusMeasure="0,mm" frame="false">
         <FrameColor red="0" alpha="255" blue="0" green="0"/>
         <BackgroundColor red="255" alpha="255" blue="255" green="255"/>
         <LayoutObject>
@@ -4989,7 +4992,7 @@ QGIS - [%@qgis_version%]
         <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem id="" filter_by_atlas="0" zValue="1" type="76987" excludeFromExports="0" outlineWidthM="0.3,mm" positionLock="false" positionOnPage="-2.86245e-14,225.728,mm" frameJoinStyle="miter" position="-2.86245e-14,225.728,mm" filter_by_map="0" visibility="1" itemRotation="0" blendMode="0" templateUuid="{94b684fc-130a-4fe5-ac74-6daff091bb7b}" size="68.2329,44.1724,mm" uuid="{94b684fc-130a-4fe5-ac74-6daff091bb7b}" referencePoint="0" linked_map="" opacity="1" background="false" groupUuid="" frame="false">
+      <LayoutItem id="" filter_by_atlas="0" zValue="1" type="76987" excludeFromExports="0" outlineWidthM="0.3,mm" positionLock="false" positionOnPage="-2.86245e-14,225.728,mm" frameJoinStyle="miter" position="-2.86245e-14,225.728,mm" filter_by_map="0" visibility="1" itemRotation="0" blendMode="0" templateUuid="{94b684fc-130a-4fe5-ac74-6daff091bb7b}" size="210.41,44.1724,mm" uuid="{94b684fc-130a-4fe5-ac74-6daff091bb7b}" referencePoint="0" linked_map="" opacity="1" background="false" groupUuid="" frame="false">
         <FrameColor red="0" alpha="255" blue="0" green="0"/>
         <BackgroundColor red="255" alpha="255" blue="255" green="255"/>
         <LayoutObject>
