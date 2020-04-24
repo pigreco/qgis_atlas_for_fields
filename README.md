@@ -1,10 +1,10 @@
-# QGIS Atlante per campi -- in lavorazione
+# QGIS Atlante per campi
 
 Generare un atlante per campi / Generate an atlas for fields
 
 <!-- TOC -->
 
-- [QGIS Atlante per campi -- in lavorazione](#qgis-atlante-per-campi----in-lavorazione)
+- [QGIS Atlante per campi](#qgis-atlante-per-campi)
   - [Perché questo repository](#perch%c3%a9-questo-repository)
   - [layer nella TOC](#layer-nella-toc)
   - [progetti QGIS](#progetti-qgis)
@@ -37,6 +37,7 @@ nome file | layer rinominato nella TOC | usato per
 `regioni_ita_mod` | `regioni`| visualizzare i confini regionali
 `atlas_pagename`|-|alimentare il `Layer di Copertura`
 
+[↑ torna su ↑](#qgis-atlante-per-campi)
 
 ## progetti QGIS
 
@@ -68,6 +69,8 @@ La **griglia** creata con l’utility `montage`, con il comando:
 
 ![](stampe/atlas_montage.png)
 
+[↑ torna su ↑](#qgis-atlante-per-campi)
+
 La **gif animata** sfruttando l’utility `convert`, con il comando:
 
 ```
@@ -75,6 +78,8 @@ convert -delay 50  output_*.png -loop 0 atlas.gif
 ```
 
 ![](stampe/atlas.gif)
+
+[↑ torna su ↑](#qgis-atlante-per-campi)
 
 ## Varie
 
@@ -103,6 +108,8 @@ QGIS - [%@qgis_version%]
 ```
 ![](./imgs/copyright.png)
 
+[↑ torna su ↑](#qgis-atlante-per-campi)
+
 ## Riferimenti
 
 - [QGIS](https://qgis.org/it/site/)
@@ -120,4 +127,6 @@ QGIS - [%@qgis_version%]
 ## Licenza
 
 **CC BY-SA 4.0** [visualizza licenza](https://creativecommons.org/licenses/by-sa/4.0/deed.it)
+
+[↑ torna su ↑](#qgis-atlante-per-campi)
 
