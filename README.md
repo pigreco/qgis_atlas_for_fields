@@ -11,6 +11,8 @@ Generare un atlante per campi / Generate an atlas for fields
   - [progetti QGIS](#progetti-qgis)
   - [Riferimenti](#riferimenti)
   - [Licenza](#licenza)
+  - [da ordinare meglio:](#da-ordinare-meglio)
+  - [atlas](#atlas)
 
 <!-- /TOC -->
 
@@ -57,3 +59,43 @@ QGIS - [%@qgis_version%]
 ## Licenza
 
 **CC BY-SA 4.0** [visualizza licenza](https://creativecommons.org/licenses/by-sa/4.0/deed.it)
+
+da ordinare meglio:
+-----
+
+esempio regex: https://regex101.com/r/vKdQJh/1
+
+espressione usata:
+
+```
+regexp_replace( @atlas_pagename,'(data)(....)(..)(..)','\\2-\\3-\\4')
+```
+
+## atlas
+
+![](imgs/atlas_01.png)
+
+Ho realizzato l’output dell’atlante per creare due cose:
+
+- la griglia di immagini presente all'inizio;
+- una gif animata che mostri le variazioni nel tempo.
+
+
+Per farlo, ho esportato le pagine dell’atlante in PNG e le ho elaborate con [ImageMagick](https://imagemagick.org/).
+
+La **griglia** creata con l’utility `montage`, con il comando:
+
+```
+ montage output_*.png -tile 8x8 -geometry +5+5 atlas_montage2.png
+```
+
+![](stampe/atlas_montage.png)
+
+La **gif animata** sfruttando l’utility `convert`, con il comando:
+
+```
+convert -delay 50  output_*.png -loop 0 atlas.gif
+```
+
+![](stampe/atlas.gif)
+
