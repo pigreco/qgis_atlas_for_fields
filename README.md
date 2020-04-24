@@ -6,6 +6,7 @@ Generare un atlante per campi / Generate an atlas for fields
 
 - [QGIS Atlante per campi](#qgis-atlante-per-campi)
   - [Perché questo repository](#perch%c3%a9-questo-repository)
+  - [Software](#software)
   - [layer nella TOC](#layer-nella-toc)
   - [progetti QGIS](#progetti-qgis)
   - [atlas](#atlas)
@@ -23,8 +24,12 @@ Generare un atlante per campi / Generate an atlas for fields
 
 Per documentare un esempio poco noto di Atlas per campi con dati e progetto. <br>L'atlante di **QGIS** si basa sulla definizione del `layer di copertura` e crea tante pagine quante sono le feature del layer. **QGIS** permette di utilizzare, come Coverage layer, anche semplici tabelle senza geometria come il caso in esame.
 
-
 ![](./imgs/img_01.png)
+
+## Software
+
+- QGIS 3.12.2 București
+- Plugin DataPlotly 3.6
 
 ## layer nella TOC
 
