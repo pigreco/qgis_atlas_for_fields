@@ -54,7 +54,7 @@ qui template: `qgis_atlas_for_fields/risorse/atlas.qpt` <https://github.com/pigr
 
 Ho realizzato l’output dell’atlante per creare due cose:
 
-- la griglia di immagini presente all'inizio;
+- la griglia di immagini;
 - una gif animata che mostri le variazioni nel tempo.
 
 
