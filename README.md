@@ -90,6 +90,8 @@ espressione usata:
 regexp_replace( @atlas_pagename,'(data)(....)(..)(..)','\\2-\\3-\\4')
 ```
 
+![](./imgs/etichetta.png)
+
 ### decorazione 2
 
 espressione copyright progetto QGIS
@@ -99,6 +101,7 @@ by Totò FIANDACA
 QGIS - [%@qgis_version%]
 © Fonte dati: PCM-DPC - Confini ISTAT
 ```
+![](./imgs/copyright.png)
 
 ## Riferimenti
 
