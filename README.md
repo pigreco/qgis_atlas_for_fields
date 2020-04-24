@@ -49,6 +49,10 @@ nome file | layer rinominato nella TOC | usato per
 
 ![](imgs/atlas_01.png)
 
+![](imgs/atlas_02.png)
+
+![](imgs/atlas_03.png)
+
 qui template: `qgis_atlas_for_fields/risorse/atlas.qpt` <https://github.com/pigreco/qgis_atlas_for_fields/blob/master/risorse/atlas.qpt>
 
 ## stampe
@@ -119,6 +123,9 @@ QGIS - [%@qgis_version%]
 - [ImageMagick](https://imagemagick.org/)
 - [PCM-DPC](https://github.com/pcm-dpc/COVID-19)
 - [Post su Medium by Andrea Borruso](https://medium.com/tantotanto/qgis-generare-un-atlante-basato-su-campi-4eeff34b3900)
+- [ISTAT](https://www.istat.it/it/archivio/222527)
+- [HfcQGIS](http://hfcqgis.opendatasicilia.it/it/latest/)
+- [Blog post su Pigrecoinfinito](https://pigrecoinfinito.com/qgis-creare-un-atlas-inconsueto/)
 
 ## Ringraziamenti
 
