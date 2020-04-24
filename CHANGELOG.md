@@ -5,3 +5,7 @@ Tutte le modifiche al progetto, nuove funzionalità e informazioni sono document
 ## 2020-04-23
 
 Nasce il repository
+
+## 2020-04-24
+
+aggiunta cartella `stampe` e aggiornato README
